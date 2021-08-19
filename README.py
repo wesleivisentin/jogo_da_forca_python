@@ -34,4 +34,13 @@ while True:
         linha2=' \|/ '
     print(f'X{linha2}')
     linha3=''
+    if erros == 5:
+        linha3 += ' /  '
+    elif erros >= 6:
+        linha3 += ' /\ '    
+    print(f'X{linha3}')
+    print('X\n===========')
+    if erros == 6:
+        print('XXXXX...enforcado!...XXXXX')
+        break
                
