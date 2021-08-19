@@ -1,5 +1,5 @@
 palavra= input('digite a palavra secreta:').lower().strip()
-for x in range(20):
+for x in range(100):
     print()
 digitadas= []
 acertos= []
