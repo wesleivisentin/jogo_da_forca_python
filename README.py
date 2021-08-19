@@ -23,11 +23,11 @@ while True:
         else:
             erros += 1
             print('Você errou!')
-    print('x==:==\nx : ') 
-    print('x O ' if erros >= 1 else 'x')
+    print('x==:==\nx  :  ') 
+    print('x  O  ' if erros >= 1 else 'x')
     linha2= ''
     if erros == 2:
-        linha2=' | '
+        linha2='  |  '
     elif erros == 3:
         linha2= ' \| ' 
     elif erros >= 4:
@@ -35,9 +35,9 @@ while True:
     print(f'X{linha2}')
     linha3=''
     if erros == 5:
-        linha3 += ' /  '
+        linha3 += ' / '
     elif erros >= 6:
-        linha3 += ' /\ '    
+        linha3 += ' / \ '    
     print(f'X{linha3}')
     print('X\n===========')
     if erros == 6:
