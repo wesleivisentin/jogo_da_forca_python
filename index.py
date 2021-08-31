@@ -7,7 +7,7 @@ erros= 0
 while True:
     senha= ""
     for letra in palavra:
-        senha += letra if letra in acertos else "." 
+        senha += letra if letra in acertos else "_" 
     print(senha)
     if senha == palavra:
         print('você acertou!')
