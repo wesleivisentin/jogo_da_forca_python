@@ -41,6 +41,6 @@ while True:
     print(f'X{linha3}')
     print('X\n===========')
     if erros == 6:
-        print('XXXXX...enforcado!...XXXXX')
+        print('XXXXX...enforcado!!...XXXXX')
         break
                
