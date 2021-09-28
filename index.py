@@ -14,7 +14,7 @@ while True:
         break
     tentativa= input('\nDigite uma letra:').lower().strip()
     if tentativa in digitadas:
-        print('Você já tentou esta letra!')
+        print('Você já tentou esta letra!!')
         continue
     else:
         digitadas += tentativa
